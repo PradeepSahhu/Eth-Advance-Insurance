@@ -17,7 +17,7 @@ contract CarInsurance is ICarInsurance {
     // Applicable for next 10 years (120 months)
     // Cover Accidents, minor damage, engine issue.
     // Claim Price : 10_00_000 wei
-    // must pay minimum of 5 month premium payment before claim.
+    // must pay minimum of 3 month premium payment before claim.
 
     // 2. Expensive - (Cover Most of the cases)  , More per month Premium.
 
