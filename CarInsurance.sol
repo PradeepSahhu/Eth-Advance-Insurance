@@ -76,6 +76,7 @@ contract CarInsurance is ICarInsurance {
         });
     }
 
+    ///@notice Adding the premium monty by month and if paying extra then only taking the necessary and reverting the remaining.
     function addPremium() public payable onlyOwner {
         require(msg.value > 0, "No amount is submitted");
         uint insuranceType = customerDetails.insuranceType;
